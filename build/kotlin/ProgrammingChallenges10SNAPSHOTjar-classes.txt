@@ -1,0 +1,1 @@
+C:\Users\santi\IdeaProjects\ProgrammingChallenges\build\classes\kotlin\main\challenges\mouredev\FizzBuzzKt.class;C:\Users\santi\IdeaProjects\ProgrammingChallenges\build\classes\kotlin\main\challenges\mouredev\LenguajeHackerKt.class
