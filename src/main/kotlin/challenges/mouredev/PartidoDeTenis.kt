@@ -44,27 +44,29 @@ fun partidoDeTenis(secuence: List<String>) {
             (cont_player_one_score == 1) -> result_player_one = "15"
             (cont_player_one_score == 2) -> result_player_one = "30"
             (cont_player_one_score == 3) -> result_player_one = "40"
-            (cont_player_one_score == 4) -> result_player_one = "Ventaja" + secuence[i]
+            (cont_player_one_score == 4) -> result_player_one = "Ventaja " + secuence[i]
         }
 
-        when{
+        when {
             (cont_player_two_score == 0) -> result_player_two = "Love"
             (cont_player_two_score == 1) -> result_player_two = "15"
             (cont_player_two_score == 2) -> result_player_two = "30"
             (cont_player_two_score == 3) -> result_player_two = "40"
-            (cont_player_two_score == 4) -> result_player_two = "Ventaja" + secuence[i]
+            (cont_player_two_score == 4) -> result_player_two = "Ventaja " + secuence[i]
         }
 
-        if (cont_player_one_score == 4 || cont_player_two_score == 4) {
-            println("Ventaja " + secuence[i])
-            println("Ha ganado " + secuence[i])
-            break
-        }else{
-            if (cont_player_one_score != cont_player_two_score) {
-                println("$result_player_one - $result_player_two")
+        if (result_player_one == "40" && result_player_two == "40") {
+            println("Deuce")
+        } else {
+            if (cont_player_one_score == 4) {
+                println(result_player_one)
+                break
             } else {
-                if (cont_player_one_score == cont_player_two_score) {
-                    println("Deuce")
+                if (cont_player_two_score == 4) {
+                    println(result_player_two)
+                    break
+                } else {
+                    println("$result_player_one - $result_player_two")
                 }
             }
         }
