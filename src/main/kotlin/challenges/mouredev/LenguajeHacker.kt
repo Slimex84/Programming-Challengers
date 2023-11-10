@@ -87,5 +87,6 @@ fun lenguajeHackerCorreccionCorta(text: String) {
             word.toString()
         }
     }
+
     println(leetText)
 }
