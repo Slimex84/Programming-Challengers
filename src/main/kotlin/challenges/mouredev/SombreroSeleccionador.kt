@@ -14,6 +14,7 @@ package challenges.mouredev
 
 fun main(args: Array<String>) {
     hat()
+    //hatCorrection()
 }
 
 private fun hat() {
