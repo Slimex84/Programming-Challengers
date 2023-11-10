@@ -14,6 +14,7 @@ package challenges.mouredev
 
 fun main(args: Array<String>) {
     hat()
+    //hatCorrection()
 }
 
 private fun hat() {
@@ -91,10 +92,10 @@ private fun hat() {
     println("\nPregunta 5: Si en una clase los ponen a hacer un trabajo en grupo, ¿usted qué hace?")
     println(
         "Respuesta 1: Hacer de todo un poquito: ayuda con la investigación, organiza, escribe\n" +
-                "Respuesta 2: Se pone a cargo de tofo, organiza, asigna roles y termina caso haciéndolo todo usted. " +
+                "Respuesta 2: Se pone a cargo de todo, organiza, asigna roles y termina caso haciéndolo todo usted. " +
                 "Prefiere eso porque si no lo hace usted, no va a quedar bien hecho\n" +
                 "Respuesta 3: Lo mínimo posible. En los grupos siempre hay alguien que se va a encargar de hacerlo todo y eso es lo chévere\n" +
-                "Respuesta 4: Investiga y escribe gran partre del trabajo pero deja que alguien más en el grupo lo decore y haga la presentación"
+                "Respuesta 4: Investiga y escribe gran parte del trabajo pero deja que alguien más en el grupo lo decore y haga la presentación"
     )
     println("Selecciona el número de la respuesta a elegir: ")
     answer_option = readln().toInt()
