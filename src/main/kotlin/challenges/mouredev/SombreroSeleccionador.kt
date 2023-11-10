@@ -110,12 +110,12 @@ private fun hat() {
         (contGryffindor > contSlytherin && contGryffindor > contHufflepuff && contGryffindor > contRavenclaw) -> println(
             "Perteneces a Gryffindor"
         )
-
-        (contSlytherin > contGryffindor && contSlytherin > contHufflepuff && contSlytherin > contRavenclaw) -> println("Perteneces a Slytherin")
+        (contSlytherin > contGryffindor && contSlytherin > contHufflepuff && contSlytherin > contRavenclaw) -> println(
+            "Perteneces a Slytherin")
         (contHufflepuff > contGryffindor && contHufflepuff > contSlytherin && contHufflepuff > contRavenclaw) -> println(
             "Perteneces a Hufflepuff"
         )
-
-        (contRavenclaw > contGryffindor && contRavenclaw > contSlytherin && contRavenclaw > contHufflepuff) -> println("Perteneces a Ravenclaw")
+        (contRavenclaw > contGryffindor && contRavenclaw > contSlytherin && contRavenclaw > contHufflepuff) -> println(
+            "Perteneces a Ravenclaw")
     }
 }
