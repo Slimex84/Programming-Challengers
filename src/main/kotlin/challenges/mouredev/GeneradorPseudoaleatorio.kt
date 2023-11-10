@@ -9,11 +9,11 @@ package challenges.mouredev
  */
 
 fun main(args: Array<String>) {
-
     generatePseudornd()
-
 }
 
 fun generatePseudornd(){
+
+    
 
 }
